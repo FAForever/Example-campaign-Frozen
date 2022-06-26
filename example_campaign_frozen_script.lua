@@ -84,7 +84,7 @@ function StartMission1()
     quantity = {8, 6, 4}
     opai = UEFAllySouthBase:AddOpAI('AirAttacks', 'M1_UEFAlly_Interceptors_Command_Defense',
         {
-            MasterPlatoonFunction = { '/maps/FAF_Coop_Battle_of_the_Frozen_Lake/PlatoonFunctions.lua', 'InterceptorCommandDefenseBehavior' },
+            MasterPlatoonFunction = { '/maps/example_campaign_frozen/PlatoonFunctions.lua', 'InterceptorCommandDefenseBehavior' },
             PlatoonData = {
                 ArmiesToProtect = { Player1 },
                 CategoriesToProtect = categories.COMMAND,
