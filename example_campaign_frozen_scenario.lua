@@ -7,7 +7,7 @@ ScenarioInfo = {
     type = 'campaign_coop',
     starts = true,
     size = {1024, 1024},
-    reclaim = {43730.37, 61936},
+    reclaim = {55375.54, 61936},
     map = '/maps/example_campaign_frozen/example_campaign_frozen.scmap',
     save = '/maps/example_campaign_frozen/example_campaign_frozen_save.lua',
     script = '/maps/example_campaign_frozen/example_campaign_frozen_script.lua',
@@ -17,7 +17,7 @@ ScenarioInfo = {
             teams = {
                 {
                     name = 'FFA',
-                    armies = {'Player1', 'UEFAlly', 'UEFEnemy'}
+                    armies = {'Player1', 'UEF', 'Cybran'}
                 },
             },
             customprops = {
